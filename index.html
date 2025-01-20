@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chuckie Baltazar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="Assets/pic.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container2">
+          <h1 style="
+            color: white;
+            padding: 5px;
+            margin-left: 20px;
+            ">Chuckie Angelo Baltazar</h1>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="Assets/cv.pdf" download="Chuckie_Baltazar_CV.pdf">Download CV</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="profile-container">
+          <img
+            src="Assets/pic.png"
+            alt="Your Profile Picture"
+            class="profile-picture"
+          />
+          <p>
+            I am a Computer Engineering student with experience in Web
+            Development, Hardware, Programming and Excel. Passionate about
+            building innovative solutions and solving technical problems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>Programming Languages: C, C++, Python, Java</li>
+          <li>Web Development: HTML, CSS, JavaScript, Php</li>
+          <li>Hardware: Microcontrollers, Arduino, Raspberry Pi</li>
+          <li>Tools: Visual Studio Code</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-card">
+          <img src="Assets/curtain.jpg" alt="Smart Curtain" />
+          <div class="project-info">
+            <h3>Smart Curtain</h3>
+            <p>
+              Automatic curtain using a light sensor based on user settings.
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="Assets/safe.jpg" alt="Project S.A.F.E" />
+          <div class="project-info">
+            <h3>Project S.A.F.E</h3>
+            <p>
+              Seismic activity detection system using MPU6050 accelerometer and
+              GSM alerts.
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="Assets/blindguide.jpg" alt="BlindGuide" />
+          <div class="project-info">
+            <h3>BlindGuide</h3>
+            <p>
+              Object and distance detection goggles for the visually impaired,
+              using image processing.
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="Assets/goodsheet.jpg"
+            alt="GoodSheet: The Eco Vendo Machine"
+          />
+          <div class="project-info">
+            <h3>GoodSheet: The Eco Vendo Machine</h3>
+            <p>
+              An eco-friendly vending machine that recycles paper and provides
+              bond papers of varying sizes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <ul>
+          <li>
+            On-the-job training at IPI, Worked with Backend-Process and Gained
+            experience in handling and calibrating machines
+          </li>
+          <li>
+            Experience in coding microcontrollers, HTML, CSS, Java, and building
+            hardware projects
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          If you'd like to get in touch, feel free to email me at:
+          <a href="mailto:pineraca@gmail.com">pineraca@gmail.com</a>
+        </p>
+        <p>Or on other social media platform:</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/baltazar.akie21" target="_blank">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/akie.webp" target="_blank">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      &copy; <span id="year"></span> Chuckie Baltazar. All rights reserved.
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
